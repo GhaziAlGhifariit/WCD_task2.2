@@ -31,7 +31,7 @@ console.log(`${fahrenheitInput}°F = ${celsiusOutput.toFixed(2)}°C`);// output 
 
 **in javascript:**
 
-```
+```javascript
 function cmToKm(cm) {
     return cm / 100000;
 }
@@ -43,7 +43,7 @@ console.log(`${cmInput} cm = ${kmOutput} km`); //output : 100000 cm = 1 km
 ```
 **in typescript:**
 
-```
+```typescript
 function cmToKm(cm: number): number {
     return cm / 100000;
 }
@@ -58,7 +58,7 @@ console.log(`${cmInput} cm = ${kmOutput} km`); //output : 100000 cm = 1 km
 
 **in javascript:**
 
-```
+```javascript
 function isEven(n) {
     return n % 2 === 0;
 }
@@ -76,7 +76,7 @@ console.log(`${number} is even: ${isEven(number)}`);
 
 **in Typescript:**
 
-```
+```typescript
 function isEven(n: number): boolean {
     return n % 2 === 0;
 }
@@ -95,7 +95,7 @@ console.log(`${number} is even: ${isEven(number)}`);
 ## Write a code to remove the first occurance of a given "search string" from a string
 **in javascript:**
 
-```
+```javascript
 function removeFirstOccurrence(str, search) {
     return str.replace(search, "");
 }
@@ -107,7 +107,7 @@ console.log(removeFirstOccurrence(text, searchString)); // Output: "ho world"
 ```
 **in Typescript:**
 
-```
+```Typescript
 function removeFirstOccurrence(str: string, search: string): string {
     return str.replace(search, "");
 }
@@ -121,7 +121,7 @@ console.log(removeFirstOccurrence(text, searchString)); // Output: "ho world"
 ## Write a code to check the wheter a string is a palindrome or not
 **in javascript:**
 
-```
+```javascript
 function isPalindrome(str) {
     // Convert string to lowercase and remove non-alphanumeric characters
     const cleanedStr = str.toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -141,7 +141,7 @@ console.log(isPalindrome(input)); // Output: true
 
 **in Typescript:**
 
-```
+```Typescript
 function isPalindrome(str: string): boolean {
     // Ubah string menjadi huruf kecil dan hilangkan karakter non-alfanumerik
     const cleanedStr = str.toLowerCase().replace(/[^a-z0-9]/g, '');
