@@ -4,7 +4,7 @@
 ## Write a program that takes a temperature in Fahrenheit as input and converts it to Celsius.
 **in javascript:**
 
-```
+```javascript
 function fahrenheitToCelsius(fahrenheit) {
     return (fahrenheit - 32) * 5 / 9;
 }
@@ -16,7 +16,7 @@ console.log(`${fahrenheitInput}°F = ${celsiusOutput.toFixed(2)}°C`); // output
 ```
 **in Typescript:**
 
-```
+```typescript
 function fahrenheitToCelsius(fahrenheit: number): number {
     return (fahrenheit - 32) * 5 / 9;
 }
